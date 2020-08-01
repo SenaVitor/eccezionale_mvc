@@ -1,0 +1,21 @@
+strong {
+    color: white;
+}
+
+.transparent-input {
+    background-color: transparent;
+    color: white;
+}
+
+.transparent-input:focus {
+    background-color: transparent;
+    color: white;
+}
+
+.titulo-contato {
+    color: white;
+}
+
+.texto-contato .descricao-contato {
+    color: white;
+}

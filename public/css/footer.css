@@ -1,0 +1,42 @@
+#footer{
+    text-align: center;
+    color: #ffffff;
+    padding-top: 12px;
+    background-image: url('../img/comidas.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: overlay;
+    padding-bottom: 10px;
+}
+
+/* Se a tela for de celular, então o background deixa de ser fixo para a imagem não bugar */
+@media only screen and (max-width: 600px) {
+    #footer {
+        background-attachment: unset;
+    }
+}
+
+.links {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.texto {
+    text-align: left;
+}
+
+.redes {
+    width: 25px;
+    height: 25px;
+}
+
+.linkRedes {
+    border: none;
+}
+
+.imgLogo {
+    margin-top: 5px;
+    width: 150px;
+}

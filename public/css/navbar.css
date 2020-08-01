@@ -1,0 +1,77 @@
+/* estilo do menu e seus links */
+@media only screen and (max-width: 1000px) {
+    #logo {
+        display: none !important;
+    }
+
+    #navbarsExample01 {
+        margin-right: -7px !important;
+        background-color: #ffffff;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    #botao {
+        margin-left: 120px;
+    }
+
+    #navbarsExample01 {
+        margin-left: 250px;
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+    #navbarsExample01 {
+        margin: 0 auto;
+        margin-right: -7px !important;
+        background-color: #ffffff;
+    }
+}
+
+#logo {
+    margin-left: 70px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    transition: 0.5s all ease;
+    border-bottom: 2px solid white;
+}
+
+a.nav-link:hover {
+    transition: 1s all ease;
+    border-bottom: 2px solid lightgreen;
+}
+
+a.nav-link {
+    font-family: 'Lato Regular';
+    border-radius: 1px;
+    font-weight: bolder;
+    border-radius: 1px;
+    font-size: 17px;
+    color: rgb(251, 176, 59);
+}
+
+.navbar {
+    background-color: white;
+}
+
+.dropdown-menu {
+    background-color: white;
+    /* text-align: center; */
+    min-width: 40px;
+    height: 60px !important;
+}
+
+#linkDoMenu {
+    font-weight: bold;
+    color: rgb(251, 176, 59);
+    font-size: 14px;
+    transition: 1s all ease;
+}
+
+#linkDoMenu:hover {
+    transition: 1s all ease;
+    border-bottom: 2px solid lightgreen;
+}

@@ -1,0 +1,82 @@
+.tituloDelivery {
+    font-family: minion-pro, serif;
+    font-style: italic;
+    font-weight: 400;
+    color: white;
+    font-size: 45px;
+}
+
+.subtituloDelivery {
+    font-family: minion-pro, serif;
+    font-style: italic;
+    font-weight: 400;
+    color: white;
+}
+
+.botaoComida {
+    font-family: 'Holtwood One SC', serif;
+}
+@font-face {
+    font-family: MontSerrat-Bold;
+    src: url("../fonts/Montserrat-Bold");
+}
+
+.hrComidas {
+    border: 1px solid white;
+}
+
+.botaoComprarComidas {
+    font-family: 'MontSerrat-Bold';
+}
+
+.table {
+    font-family: 'MontSerrat-Bold';
+    font-weight: 500;
+    color: white;
+}
+
+/* Background dos cards é feito com um degradê usando esse código */
+/* background: rgba(73, 2, 2, 0.3); */
+.card {
+    background: rgba(73, 2, 2, 0.5);
+}
+
+/* .card-body {
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+} */
+
+/* Essa parte pode tirar as bordas entre as linhas da tabela de comidas */
+.table>tbody>tr>td,
+.table>tbody>tr>th {
+    /* border: none; */
+    border-color: white;
+}
+
+#imagensComidas {
+    height: 172px;
+    border-radius: 10px;
+}
+
+.modalComprarComida {
+    background-image: url("../img/deliveryMan.png");
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(30, 30, 30, 1);
+    background-blend-mode: overlay;
+    color: white;
+}
+
+.backgroundOpaco {
+    background-color: rgba(30, 30, 30, 1);
+    color: white;
+}
+
+/* Em celulares o tamanho das imagens vai mudar dessa forma */
+@media only screen and (max-width: 600px) {
+    #imagensComidas {
+        height: 200px;
+        width: 100%;
+    }
+}
